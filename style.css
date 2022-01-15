@@ -8,7 +8,7 @@ body{
     margin: 0;
 }
 
-/* container */
+
 
 
 /* Settings */
@@ -18,11 +18,21 @@ body{
 }
 
 /* Head-nav-brand-section */
+.brand{
+    font-weight: 700;
+    color: var(--topColor);
+    padding-left: 140px;
+    font-size: 24px;
+}
+
+.navbar{
+    margin: 50px 0px;
+}
+
 
 
 
 /* Super-Section */
-
 .super-section{
     display: flex;
     align-items: center;
@@ -202,6 +212,15 @@ footer{
 
 
 @media only screen and (max-width:688px) {
+    /* Nav */
+    .navbar{
+        margin: 50px 0px;
+       text-align: center;
+    }
+    
+    .brand{
+        padding: 0 36px;
+    }
     /* super section */
     .super-section{
         flex-direction: column-reverse;
@@ -236,6 +255,12 @@ footer{
 
 /* -------------------------------------Tablets--------------------------------- */
 @media only screen and (min-width:689px) and (max-width:992px ) {
+    /* nav */
+
+     .brand{
+         padding-left: 84px;
+     }
+
     .super-left{
         width: 900px;
     }
