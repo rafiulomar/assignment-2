@@ -9,8 +9,6 @@ body{
 }
 
 
-
-
 /* Settings */
 :root{
     --topColor: #3A3A3A;
@@ -28,9 +26,6 @@ body{
 .navbar{
     margin: 50px 0px;
 }
-
-
-
 
 /* Super-Section */
 .super-section{
@@ -84,6 +79,16 @@ body{
 .btn-super .fa-arrow-right{
     padding-left: 15px;
 }
+
+
+/* animation camera */
+
+#camera:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: transform 1s ease-in-out;
+}
+
 
 
 
