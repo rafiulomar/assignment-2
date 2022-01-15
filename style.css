@@ -88,7 +88,48 @@ body{
 
 
 
+/* ------------------------SUB section---------------------------- */
 
+.contract{
+    text-align: center;
+    font-size: 28px;
+    color: var(--topColor);
+    font-weight: 700;
+}
+.subLatter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.sub-left{
+    padding-left: 20px;
+}
+.sub-right{
+    padding: 0 20px;
+}
+.sub-right img{
+     width: 100%;
+    text-align: center;
+    object-fit: cover;
+}
+
+#email-input{
+    font-size: 18px;
+    border: 1px solid #E14C6E;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 5px;
+    
+}
+
+.btn-submit{
+    border-radius: 6px;
+    margin-left: 5px;
+}
+.btn-submit:hover{
+    background-color: #da5271;
+}
 
 
 
@@ -249,6 +290,13 @@ footer{
     }
     .seeMore-btn{
         padding-right: 21px;
+    }
+    /* sub */
+    .subLatter{
+        flex-direction: column;
+    }
+    .btn-submit{
+        margin-top: 20px;
     }
 }
 
