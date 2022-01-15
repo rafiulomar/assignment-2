@@ -28,7 +28,7 @@ body{
     align-items: center;
 }
 .super-right{
-    padding: 0px 25px;
+    padding: 60px 150px;
 }
 .top-title{
     font-size: 52px;
@@ -41,6 +41,9 @@ body{
     color: var(--topColor);
     font-size: 16px;
     font-weight: 600;
+}
+.super-left{
+    width: 600px;
 }
 .super-left img{
     width: 100%;
@@ -203,7 +206,12 @@ footer{
     .super-section{
         flex-direction: column-reverse;
     }
-
+    .super-right{
+        padding: 0px 25px;
+    }
+    .super-left{
+        width: 300px;
+    }
     .top-title{
         font-size: 1.5em;
         text-align: center;
@@ -228,7 +236,12 @@ footer{
 
 /* -------------------------------------Tablets--------------------------------- */
 @media only screen and (min-width:689px) and (max-width:992px ) {
-        
+    .super-left{
+        width: 900px;
+    }
+    .super-right{
+        padding: 0px 80px;
+    }
         /* Collection section */
         .collection{
             grid-template-columns: repeat(2, 1fr);
