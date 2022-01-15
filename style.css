@@ -25,13 +25,17 @@ body{
 
 .super-section{
     display: flex;
-    padding: 50px 120px;
     align-items: center;
 }
-.super-right h1{
+.super-right{
+    padding: 0px 25px;
+}
+.top-title{
     font-size: 52px;
     color: var(--topColor);
-
+}
+.top-title span{
+    display: block;
 }
 .super-right p{
     color: var(--topColor);
@@ -50,12 +54,18 @@ body{
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .btn-super{
     border-radius: 20px;
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
+}
+
+.btn-super:hover{
+    background-color: #fd005dc2;
 }
 
 .btn-super .fa-arrow-right{
@@ -112,8 +122,20 @@ footer{
 
 @media only screen and (max-width:688px) {
 
-    .navbar{
-        width: 100%;
+    .super-section{
+        flex-direction: column-reverse;
+    }
+
+    .top-title{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .super-right{
+        text-align: center;
+    }
+    .super-btn-section{
+        display: flex;
         justify-content: center;
     }
+    
 }
